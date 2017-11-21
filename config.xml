@@ -66,9 +66,6 @@
 		<plugin name="cordova-plugin-splashscreen" />
 		<plugin name="cordova-plugin-vibration" />
 		
-		<gap:config-file platform="ios" parent="CFBundleShortVersionString">
-		<string>100</string>
-		</gap:config-file>
 
 		<!--
 			Define access to external domains.
