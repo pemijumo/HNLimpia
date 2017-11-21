@@ -17,9 +17,6 @@
             pp
         </author>
         <plugin name="cordova-plugin-whitelist" spec="1" />
-		<plugin name="cordova-plugin-geolocation" />
-		<plugin name="cordova-plugin-device" />	
-		<plugin name="cordova-plugin-dialogs" />
         <!-- versionCode is optional and Android only -->
 		<feature name="http://api.phonegap.com/1.0/network" />
 		<access origin="*" subdomains="true" />
@@ -37,7 +34,9 @@
 		<!-- Plugins -->
 
 		<!-- Core plugins -->
-		
+		<plugin name="cordova-plugin-geolocation" />
+		<plugin name="cordova-plugin-device" />	
+		<plugin name="cordova-plugin-dialogs" />
 		
 		<!--
 			Define access to external domains.
